@@ -1,0 +1,4 @@
+install node
+npm init edit the package name and author
+npm i -g sass
+npm i -g node-sass
