@@ -60,6 +60,46 @@ button, button:focus {
     background: #FFD289;
 }
 
+nav{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+.brand-logo{
+    width: 90%;
+}
+#navbarNav{
+    width: 10%;
+}
+
+
+/* banner-ads */
+
+#banner_adds{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.ads-item img{
+    height: 250px;
+    width: auto;
+}
+#banner1{
+    justify-content: end;
+    margin-left: auto;
+    margin-right: 20px;
+}
+#banner2{
+    justify-content: start;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+/* banner-ads */
+
+
 /*  top sale template   */
 #top-sale .owl-carousel .item .product a {
     overflow: hidden;

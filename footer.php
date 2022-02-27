@@ -2,11 +2,11 @@
 <!-- !start #main-site -->
 
 <!-- start #footer -->
-<footer id="footer" class="bg-dark text-white py-5">
+<footer id="footer" class="color-primary-bg text-white py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-12">
-                <h4 class="font-rubik font-size-20">Mobile Shopee</h4>
+                <h4 class="font-rubik font-size-20">SHOEZ</h4>
                 <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, deserunt.</p>
             </div>
             <div class="col-lg-4 col-12">
@@ -16,7 +16,7 @@
                         <input type="text" class="form-control" placeholder="Email *">
                     </div>
                     <div class="col">
-                        <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                        <button type="submit" class="btn color-second-bg mb-2">Subscribe</button>
                     </div>
                 </form>
             </div>
@@ -41,8 +41,8 @@
         </div>
     </div>
 </footer>
-<div class="copyright text-center bg-dark text-white py-2">
-    <p class="font-rale font-size-14">&copy; Copyrights 2020. Desing By <a href="#" class="color-second">Daily Tuition</a></p>
+<div class="copyright text-center color-primary-bg text-white py-2">
+    <p class="font-rale font-size-14">&copy; Copyrights 2020. Desing By <a href="#" class="color-second">Ana Muraya</a></p>
 </div>
 <!-- !start #footer -->
 
