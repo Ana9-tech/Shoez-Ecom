@@ -24,7 +24,7 @@ include('Template/_banner-ads.php');
 //    include banner ads
 
 //    include new phones
-include('Template/_new-phones.php');
+include('Template/_new-shoes.php');
 //    include new phones
 
 //    include blog area

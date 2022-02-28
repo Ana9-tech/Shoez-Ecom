@@ -37,28 +37,32 @@ button, button:focus {
 
 /* Color Template  */
 .color-primary {
-    color: #003859;
-}
-
-.color-primary-bg {
-    background: #003859;
-}
-
-.color-second {
-    color: #00A5C4;
-}
-
-.color-second-bg {
-    background: #00A5C4;
-}
-
-.color-yellow {
-    color: #FFD289;
-}
-
-.color-yellow-bg {
-    background: #FFD289;
-}
+    color: #002daa;
+  }
+  
+  .color-primary-bg {
+  background: #001b66;
+  }
+  
+  .color-second {
+    color: #59003e;
+  }
+  
+  .color-second-bg {
+    background: #59003e;
+  }
+  
+  .color-yellow {
+    color: #fa6acf;
+  }
+  
+  .color-yellow-bg {
+    background: #fa6acf;
+  }
+  .color-disabled-bg {
+    background: #eba1d5cc;
+  }
+  
 
 nav{
     display: flex;
@@ -72,6 +76,23 @@ nav{
     width: 10%;
 }
 
+.wishlist-heart{
+    margin-left: auto;
+    border: none;
+    text-decoration: none;
+    background: none;
+}
+#wishlist-heart-inactive{
+    opacity: 0.7;
+}
+#wishlist-heart-active:hover{
+    transform: scale(1.5);
+}
+#wishlist-heart-active:active {
+    /* background-color: #3e8e41; */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 
 /* banner-ads */
 

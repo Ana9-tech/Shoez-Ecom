@@ -55,12 +55,12 @@
 
                             <form method="post">
                                 <input type="hidden" value="<?php echo $item['item_id'] ?? 0; ?>" name="item_id">
-                                <button type="submit" name="delete-cart-submit" class="btn font-baloo text-danger px-3 border-right">Delete</button>
+                                <button type="submit" name="delete-cart-submit" class="btn font-baloo color-second px-3 border-right">Delete</button>
                             </form>
 
                             <form method="post">
                                 <input type="hidden" value="<?php echo $item['item_id'] ?? 0; ?>" name="item_id">
-                                <button type="submit" name="wishlist-submit" class="btn font-baloo text-danger">Save for Later</button>
+                                <button type="submit" name="wishlist-submit" class="btn font-baloo color-second">Save for Later</button>
                             </form>
 
 
@@ -70,8 +70,8 @@
                     </div>
 
                     <div class="col-sm-2 text-right">
-                        <div class="font-size-20 text-danger font-baloo">
-                            $<span class="product_price" data-id="<?php echo $item['item_id'] ?? '0'; ?>"><?php echo $item['item_price'] ?? 0; ?></span>
+                        <div class="font-size-20 color-second font-baloo">
+                        Kshs. <span class="product_price" data-id="<?php echo $item['item_id'] ?? '0'; ?>"><?php echo $item['item_price'] ?? 0; ?></span>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                 <div class="sub-total border text-center mt-2">
                     <h6 class="font-size-12 font-rale text-success py-3"><i class="fas fa-check"></i> Your order is eligible for FREE Delivery.</h6>
                     <div class="border-top py-4">
-                        <h5 class="font-baloo font-size-20">Subtotal ( <?php echo isset($subTotal) ? count($subTotal) : 0; ?> item):&nbsp; <span class="text-danger">$<span class="text-danger" id="deal-price"><?php echo isset($subTotal) ? $Cart->getSum($subTotal) : 0; ?></span> </span> </h5>
+                        <h5 class="font-baloo font-size-20">Subtotal ( <?php echo isset($subTotal) ? count($subTotal) : 0; ?> item):&nbsp; <span class="color-second">Kshs. <span class="color-second" id="deal-price"><?php echo isset($subTotal) ? $Cart->getSum($subTotal) : 0; ?></span> </span> </h5>
                         <button type="submit" class="btn btn-warning mt-3">Proceed to Buy</button>
                     </div>
                 </div>

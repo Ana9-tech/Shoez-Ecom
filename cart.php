@@ -16,7 +16,7 @@ count($product->getData('wishlist')) ? include ('Template/_wishilist_template.ph
 
 
 /*  include top sale section */
-include ('Template/_new-phones.php');
+include ('Template/_new-shoes.php');
 /*  include top sale section */
 
 ?>
