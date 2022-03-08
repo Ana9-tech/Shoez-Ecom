@@ -11,7 +11,7 @@
                 <img src="<?php echo $item['item_image'] ?? "./assets/products/1.png" ?>" alt="product" class="img-fluid">
                 <div class="form-row pt-4 font-size-16 font-baloo">
                     <div class="col">
-                        <button type="submit" class="btn btn-primary form-control">Proceed to Buy</button>
+                        <a href="under_construction.php" class="btn btn-primary form-control">Proceed to Buy</a>
                     </div>
                     <div class="col">
                         <?php
